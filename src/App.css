@@ -4,20 +4,72 @@
   text-align: center;
   background-color: rgb(240, 240, 240);
   color: #000;
-  max-width: calc(100vw - 40px);
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
 }
 
 /* CONTROL PANEL */
-.control-panel-wrapper {
-  width: 100%;
-  height: 100vh;
+.control-panel {
+  display: flex;
+  /* flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start; */
+  width: calc(100vw - 40px);;
+  height: calc(100vh - 40px);;
   border: 20px solid transparent;
   border-image: url("./assets/img/control-panel-frame.png") 30 round;
   background-color: rgb(210, 210, 210);
+}
+
+.control-panel p {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.panel-column {
+  flex: 50%;
+  height: 100%;
+}
+
+/* DIRECTION */
+.direction {
+  width: auto;
+  height: 50vh;
+  border: 1px solid #000;
+  margin: 0.5em;
+}
+
+/* ROTATION */
+.rotation {
+  width: auto;
+  height: 10vh;
+  border: 1px solid #000;
+  margin: 0.5em;
+}
+
+/* SPEED */
+.speed {
+  width: auto;
+  height: 10vh;
+  border: 1px solid #000;
+  margin: 0.5em;
+}
+
+/* SETTINGS */
+.settings {
+  width: auto;
+  height: 10vh;
+  border: 1px solid #000;
+  margin: 0.5em;
+  margin-top: 2em;
+}
+
+/* BODY */
+.body {
+  width: auto;
+  height: calc(100% - 20px);
+  border: 1px solid #000;
+  margin: 0.5em;
 }
