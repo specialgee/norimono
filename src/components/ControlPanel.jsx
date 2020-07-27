@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import Body from './Body'
+import Direction from './Direction';
+import Rotation from './Rotation';
+import Speed from './Speed';
+import Settings from './Settings'
 
 class ControlPanel extends Component {
     constructor(props) {
@@ -19,8 +24,16 @@ class ControlPanel extends Component {
 
     render() {
         return (
-            <div className="control-panel-wrapper">
-
+            <div className="control-panel">
+                <div className="panel-column">
+                    <Direction />
+                    <Rotation />
+                    <Speed />
+                    <Settings />
+                </div>
+                <div className="panel-column">
+                    <Body />
+                </div>
             </div>
         )
     }
