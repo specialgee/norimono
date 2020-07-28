@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import headImage from '../assets/img/head.png'
 
 class Direction extends Component {
     constructor(props) {
