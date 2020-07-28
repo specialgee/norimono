@@ -33,12 +33,76 @@
   height: 100%;
 }
 
+button {
+  font-size: 0.8em;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 /* DIRECTION */
 .direction {
   width: auto;
   height: 50vh;
   border: 1px solid #000;
   margin: 0.5em;
+  position: relative;
+}
+
+.direction .container {
+  height: 100%;
+  display: grid;
+}
+
+.direction .container .row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.direction-head {
+  width: 100%;
+  max-width: 120px;
+  max-height: 100px;
+  align-self: center;
+}
+
+.direction button {
+  align-self: center;
+  border: 0px;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.direction button:focus {
+  outline: none;
+}
+
+.direction-top {
+  background-image: url("./assets/img/button-top.png");
+  width: 157px;
+  height: 90px;
+}
+
+.direction-bottom {
+  background-image: url("./assets/img/button-bottom.png");
+  width: 151px;
+  height: 85px;
+}
+
+.direction-left {
+  background-image: url("./assets/img/button-left.png");
+  width: 89px;
+  height: 153px;
+}
+
+.direction-right {
+  background-image: url("./assets/img/button-right.png");
+  width: 86px;
+  height: 151px;
 }
 
 /* ROTATION */
