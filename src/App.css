@@ -136,6 +136,25 @@ button:focus {
   margin: 0.5em;
 }
 
+.speed-slow {
+  background-image: url("./assets/img/speed/button-slow.png");
+  width: 154px;
+  height: 66px;
+}
+
+.speed-fast {
+  background-image: url("./assets/img/speed/button-fast.png");
+  width: 130px;
+  height: 63px;
+}
+
+.speed-arrow {
+  width: 108px;
+  height: 17px;
+  align-self: center;
+  background-color: transparent;
+}
+
 /* SETTINGS */
 .settings {
   width: auto;
