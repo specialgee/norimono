@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Row} from 'react-bootstrap'
-import headImage from '../assets/img/head.png'
+import headImage from '../assets/img/direction/head.png'
 import audioFront from '../assets/audio/direction/前.wav'
 import audioBack from '../assets/audio/direction/後.wav'
 import audioLeft from '../assets/audio/direction/左.wav'
