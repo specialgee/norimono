@@ -28,6 +28,17 @@
   transform: translate(-50%, -50%);
 }
 
+.container {
+  height: 100%;
+  display: grid;
+}
+
+.container .row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
 .panel-column {
   flex: 50%;
   height: 100%;
@@ -42,6 +53,10 @@ button:hover {
   cursor: pointer;
 }
 
+button:focus {
+  outline: none;
+}
+
 /* DIRECTION */
 .direction {
   width: auto;
@@ -49,17 +64,6 @@ button:hover {
   border: 1px solid #000;
   margin: 0.5em;
   position: relative;
-}
-
-.direction .container {
-  height: 100%;
-  display: grid;
-}
-
-.direction .container .row {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
 }
 
 .direction-head {
@@ -77,30 +81,26 @@ button:hover {
   background-repeat: no-repeat;
 }
 
-.direction button:focus {
-  outline: none;
-}
-
 .direction-top {
-  background-image: url("./assets/img/button-top.png");
+  background-image: url("./assets/img/direction/button-top.png");
   width: 157px;
   height: 90px;
 }
 
 .direction-bottom {
-  background-image: url("./assets/img/button-bottom.png");
+  background-image: url("./assets/img/direction/button-bottom.png");
   width: 151px;
   height: 85px;
 }
 
 .direction-left {
-  background-image: url("./assets/img/button-left.png");
+  background-image: url("./assets/img/direction/button-left.png");
   width: 89px;
   height: 153px;
 }
 
 .direction-right {
-  background-image: url("./assets/img/button-right.png");
+  background-image: url("./assets/img/direction/button-right.png");
   width: 86px;
   height: 151px;
 }
@@ -111,6 +111,29 @@ button:hover {
   height: 10vh;
   border: 1px solid #000;
   margin: 0.5em;
+}
+
+.rotation button {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-left: 2em;
+  align-self: center;
+  border: 0px;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rotation-30 {
+  background-image: url("./assets/img/rotation/rotation-30.png");
+  width: 131px;
+  height: 65px;
+}
+
+.rotation-45 {
+  background-image: url("./assets/img/rotation/rotation-45.png");
+  width: 120px;
+  height: 84px;
 }
 
 /* SPEED */
