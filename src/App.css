@@ -20,13 +20,13 @@
   background-color: rgb(210, 210, 210);
 }
 
-.control-panel p {
+/* .control-panel p {
   margin: 0 auto;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .container {
   height: 100%;
@@ -66,7 +66,6 @@ button:focus {
 .direction {
   width: auto;
   height: 50vh;
-  border: 1px solid #000;
   margin: 0.5em;
   position: relative;
 }
@@ -106,8 +105,11 @@ button:focus {
 .rotation {
   width: auto;
   height: 10vh;
-  border: 1px solid #000;
   margin: 0.5em;
+}
+
+.rotation .row {
+  justify-content: center;
 }
 
 .rotation button {
@@ -126,14 +128,19 @@ button:focus {
   background-image: url("./assets/img/rotation/rotation-45.png");
   width: 120px;
   height: 84px;
+  margin-left: 3em;
 }
 
 /* SPEED */
 .speed {
   width: auto;
   height: 10vh;
-  border: 1px solid #000;
   margin: 0.5em;
+  margin-top: 1em;
+}
+
+.speed .row {
+  justify-content: center;
 }
 
 .speed-slow {
@@ -146,6 +153,7 @@ button:focus {
   background-image: url("./assets/img/speed/button-fast.png");
   width: 130px;
   height: 63px;
+  margin-left: 20px;
 }
 
 .speed-arrow {
@@ -153,23 +161,23 @@ button:focus {
   height: 17px;
   align-self: center;
   background-color: transparent;
+  margin-left: 20px;
 }
 
 /* SETTINGS */
 .settings {
   width: auto;
   height: 10vh;
-  border: 1px solid #000;
   margin: 0.5em;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 /* BODY */
 .body {
   width: auto;
-  height: calc(100% - 20px);
-  border: 1px solid #000;
+  height: 947px;
   margin: 0.5em;
+  margin-right: 250px;
 }
 
 .body .container {
@@ -186,8 +194,8 @@ button:focus {
 
 .body-head {
   background-image: url("./assets/img/body/body-head.png");
-  width: 95px;
-  height: 122px;
+  width: 100px;
+  height: 128px;
   position: relative;
   top: 35px;
   left: -18px;
@@ -198,7 +206,7 @@ button:focus {
   width: 41px;
   height: 51px;
   position: relative;
-  top: 25px;
+  top: 20px;
   left: -18px;
 }
 
