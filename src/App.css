@@ -171,3 +171,88 @@ button:focus {
   border: 1px solid #000;
   margin: 0.5em;
 }
+
+.body .container {
+  width: auto;
+  height: 100%;
+  background-image: url("./assets/img/body/body-skeleton.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.body button {
+  align-self: auto;
+}
+
+.body-head {
+  background-image: url("./assets/img/body/body-head.png");
+  width: 95px;
+  height: 122px;
+  position: relative;
+  top: 35px;
+  left: -18px;
+}
+
+.body-neck {
+  background-image: url("./assets/img/body/body-neck.png");
+  width: 41px;
+  height: 51px;
+  position: relative;
+  top: 25px;
+  left: -18px;
+}
+
+.body-arm {
+  background-image: url("./assets/img/body/body-arm.png");
+  width: 103px;
+  height: 354px;
+  position: relative;
+  top: 15px;
+  left: 110px;
+  padding-left: 25px;
+}
+
+.body-elbow {
+  background-image: url("./assets/img/body/body-elbow.png");
+  width: 58px;
+  height: 54px;
+  position: relative;
+  top: -185px;
+  left: -130px;
+}
+
+.body-waist {
+  background-image: url("./assets/img/body/body-waist.png");
+  width: 117px;
+  height: 53px;
+  position: relative;
+  top: -140px;
+  left: -10px;
+}
+
+.body-hand {
+  background-image: url("./assets/img/body/body-hand.png");
+  width: 53px;
+  height: 56px;
+  position: relative;
+  top: -145px;
+  left: -140px;
+}
+
+.body-knee {
+  background-image: url("./assets/img/body/body-knee.png");
+  width: 63px;
+  height: 52px;
+  position: relative;
+  top: -50px;
+  left: -65px;
+}
+
+.body-leg {
+  background-image: url("./assets/img/body/body-leg.png");
+  width: 105px;
+  height: 414px;
+  position: relative;
+  top: -220px;
+  left: 45px;
+}
