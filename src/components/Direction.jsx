@@ -32,7 +32,7 @@ class Direction extends Component {
     render() {
         return (
             <div className="direction">
-                <Container >
+                <Container>
                     <Row>
                         <button className="direction-top" onClick={this.onButtonClick}>
                             前

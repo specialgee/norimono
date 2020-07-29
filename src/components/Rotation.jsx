@@ -29,7 +29,7 @@ class Rotation extends Component {
     render() {
         return (
             <div className="rotation">
-                <Container >
+                <Container>
                     <Row>
                         <button className="rotation-30" onClick={this.onButtonClick}>
                             30°
