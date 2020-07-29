@@ -45,11 +45,16 @@
 }
 
 button {
+  align-self: center;
+  border: 0px;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-size: 0.8em;
 }
 
 button:hover {
-  opacity: 0.7;
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -71,14 +76,6 @@ button:focus {
   max-width: 120px;
   max-height: 100px;
   align-self: center;
-}
-
-.direction button {
-  align-self: center;
-  border: 0px;
-  background-color: transparent;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .direction-top {
@@ -117,11 +114,6 @@ button:focus {
   text-align: center;
   padding-top: 0.5em;
   padding-left: 2em;
-  align-self: center;
-  border: 0px;
-  background-color: transparent;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .rotation-30 {
