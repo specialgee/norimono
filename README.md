@@ -2,6 +2,7 @@ norimono
 ---
 
 norimono control panel for [Manami Seki](manamiro.tumblr.com) live performance
+
 online event at [TALION GALLERY](http://www.taliongallery.com/en/upcoming/)
 
 ## available scripts
