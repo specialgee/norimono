@@ -27,6 +27,32 @@ class Direction extends Component {
 
     onButtonClick(e) {
         e.target.children[0].play();
+
+        const direction = e.target.className;
+        
+        const headImage = document.getElementsByClassName("direction-head")[0];
+
+        switch (direction) {
+            case "direction-top":
+                headImage.style.transform = "rotate(0deg)"
+                break;
+
+            case "direction-bottom":
+                headImage.style.transform = "rotate(-180deg)"
+                break;
+
+            case "direction-left":
+                headImage.style.transform = "rotate(-90deg)"
+                break;
+    
+
+            case "direction-right":
+                headImage.style.transform = "rotate(90deg)"
+                break;
+            default:
+                break;
+        }
+
     }
 
     render() {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Container, Row} from 'react-bootstrap'
 import rotate30 from '../assets/audio/rotation/30°.wav'
 import rotate45 from '../assets/audio/rotation/45°.wav'
-
+  
 class Rotation extends Component {
     constructor(props) {
         super(props);
