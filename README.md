@@ -3,7 +3,7 @@ norimono
 
 norimono control panel for [Manami Seki](manamiro.tumblr.com) live performance
 
-online event at [TALION GALLERY](http://www.taliongallery.com/en/upcoming/)
+online event at [TALION GALLERY](http://www.taliongallery.com/en/upcoming/) ‪2020.8.8‬ ‪Sat. ‪19:00-20:00 / ‪‪8.9‬ ‪Sun. ‪17:00-18:00
 
 ## available scripts
 
