@@ -1,9 +1,10 @@
 norimono
 ---
 
-norimono control panel for live performance online event at [TALION GALLERY](http://www.taliongallery.com/en/upcoming/)
+norimono control panel for [Manami Seki](manamiro.tumblr.com) live performance
+online event at [TALION GALLERY](http://www.taliongallery.com/en/upcoming/)
 
-## Available Scripts
+## available scripts
 
 In the project directory, you can run:
 
