@@ -5,10 +5,15 @@
   src: url(./assets/fonts/yugothib.ttf);
 }
 
+@font-face {
+  font-family: 'MPLUS1p-Medium';
+  src: url(./assets/fonts/MPLUS1p-Medium.ttf);
+}
+
 /* MAIN */
 body {
   margin: 0;
-  font-family: 'YugoBold', 'Helvetica Neue',
+  font-family: 'MPLUS1p-Medium', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
