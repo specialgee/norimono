@@ -25,13 +25,13 @@ class ControlPanel extends Component {
     render() {
         return (
             <div className="control-panel">
-                <div className="panel-column">
+                <div className="panel-column panel-parameters">
                     <Direction />
                     <Rotation />
                     <Speed />
                     <Settings />
                 </div>
-                <div className="panel-column">
+                <div className="panel-column panel-body">
                     <Body />
                 </div>
             </div>
