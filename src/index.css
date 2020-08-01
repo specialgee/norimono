@@ -13,6 +13,7 @@
 /* MAIN */
 body {
   margin: 0;
+  background-color: rgb(210, 210, 210);
   font-family: 'MPLUS1p-Medium', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
