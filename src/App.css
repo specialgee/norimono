@@ -47,13 +47,16 @@
 
 .panel-parameters {
   width: 100%;
-  max-width: 450px;
+  min-width: 450px;
 }
 
 .panel-body {
   width: 100%;
   margin: 0;
   padding: 0;
+  transform: scale(0.8);
+  position: relative;
+  top: -125px;
 }
 
 button {
@@ -188,7 +191,7 @@ button:focus {
 .body {
   width: auto;
   float: left;
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
 .body .container {
