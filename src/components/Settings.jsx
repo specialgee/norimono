@@ -29,24 +29,20 @@ class Settings extends Component {
     render() {
         return (
             <div className="settings">
-                <Container>
-                    <Row>
-                        <button className="settings-cancel" onClick={this.onButtonClick}>
-                            キャンセル
-                            <audio className="button-audio">
-                                <source src={audioCancel} type="audio/wav" />
-                                Your browser does not support the audio element.
-                            </audio>
-                        </button>
-                        <button className="settings-repeat" onClick={this.onButtonClick}>
-                            リピート
-                            <audio className="button-audio">
-                                <source src={audioRepeat} type="audio/wav" />
-                                Your browser does not support the audio element.
-                            </audio>
-                        </button>
-                    </Row>
-                </Container>
+                <button className="settings-cancel" onClick={this.onButtonClick}>
+                    キャンセル
+                    <audio className="button-audio">
+                        <source src={audioCancel} type="audio/wav" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </button>
+                <button className="settings-repeat" onClick={this.onButtonClick}>
+                    リピート
+                    <audio className="button-audio">
+                        <source src={audioRepeat} type="audio/wav" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </button>
             </div>
         )
     }

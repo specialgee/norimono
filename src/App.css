@@ -19,6 +19,7 @@
   border-image: url("./assets/img/control-panel-frame.png") 30 round;
   background-color: rgb(210, 210, 210);
   padding: 1em;
+  transform: translate(-130px, -150px) scale(0.7);
 }
 
 /* .control-panel p {
@@ -81,8 +82,9 @@ button:focus {
 /* DIRECTION */
 .direction {
   width: auto;
-  height: 50vh;
+  height: auto;
   margin: 0.5em;
+  margin-top: 2em;
   position: relative;
 }
 
@@ -120,8 +122,10 @@ button:focus {
 /* ROTATION */
 .rotation {
   width: auto;
-  height: 10vh;
-  margin: 0.5em;
+  height: auto;
+  margin-top: 0.5em;
+  margin-top: 2em;
+  transform: scale(1.2);
 }
 
 .rotation .row {
@@ -150,9 +154,10 @@ button:focus {
 /* SPEED */
 .speed {
   width: auto;
-  height: 10vh;
+  height: auto;
   margin: 0.5em;
-  margin-top: 1em;
+  margin-top: 2em;
+  transform: scale(1.1);
 }
 
 .speed .row {
@@ -183,8 +188,13 @@ button:focus {
 /* SETTINGS */
 .settings {
   width: auto;
-  height: 10vh;
-  margin: 0em;
+  height: auto;
+  margin-top: 4em;
+  transform: scale(2);
+}
+
+.settings-cancel {
+  margin-right: 1em;
 }
 
 /* BODY */
